@@ -32,6 +32,7 @@ export default function HomeScreen() {
         <View>
             <ScrollView showsVerticalScrollIndicator={false}
             >
+                <Text>ola</Text>
             {datos.map((item,index)=>{
                 return (
                     <View key={index}>
@@ -53,7 +54,7 @@ export default function HomeScreen() {
                                     }}
                                 />
                                 <Text>{item.nickname}</Text>
-                                <Text>rama2</Text>
+                              
                             </View>
                         </Card>
 
