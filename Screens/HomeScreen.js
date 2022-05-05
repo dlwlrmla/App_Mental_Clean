@@ -53,6 +53,7 @@ export default function HomeScreen() {
                                     }}
                                 />
                                 <Text>{item.nickname}</Text>
+                                <Text>rama2</Text>
                             </View>
                         </Card>
 
